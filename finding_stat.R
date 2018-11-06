@@ -70,5 +70,3 @@ colnames(p_list)<- "values"
 significant_vals <- p_list[p_list$values <= 0.05,]
 
 
-#p_value_df <- as.data.frame(lapply(dicemat[,], FUN = function(x) {sapply(x, FUN = p_val_function)}))
-#p_val_mat <- outer(1:nrow(dicemat), 1:ncol(dicemat), FUN = function(r,c) 1- p_val_function(dicemat[r,c]))
